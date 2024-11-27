@@ -1,0 +1,59 @@
+main {
+  padding: 30px 20px 30px 20px;
+}
+
+.item-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #ededef;
+  padding: 20px 0 20px 0;
+}
+
+.item-list__img {
+  width: 150px;
+  height: 150px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-list__img img {
+  width: 50px;
+}
+
+.item-list__info {
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  /* justify-content: start; colum으로 바꿨기때문에 justify content가 세로방향임 세로방향의 start는 가장 위쪽 */
+}
+
+.item-list__info-meta {
+  font-size: smaller;
+  color: gray;
+}
+
+.item-list__info-price {
+  font-weight: bold;
+}
+
+.item-list__info div {
+  margin-top: 10px;
+}
+
+.write-btn {
+  background-color: orangered;
+  position: fixed;
+  bottom: 120px;
+  right: 20px;
+  padding: 10px 15px 10px 15px;
+  color: white;
+  border-radius: 25px;
+  font-size: 15px;
+}
